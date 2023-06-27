@@ -29,5 +29,8 @@ if brands:
     print("Matching Brand Names:")
     for brand in brands:
         print(brand)
+
+
+# https://autocomplete.clearbit.com/v1/companies/suggest?query
 else:
     print("No matching brands found for the product name.")
